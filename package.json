@@ -1,0 +1,27 @@
+{
+  "name": "pencil-server",
+  "version": "1.0.0",
+  "description": "Simple express server",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www"
+  },
+  "author": "Taha Nemat",
+  "license": "ISC",
+  "dependencies": {
+    "after-load": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3",
+    "simple-unfurl": "^1.0.1",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
